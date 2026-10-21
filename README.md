@@ -32,7 +32,7 @@ No `gh`? Every file is also a plain URL:
 
 ```sh
 cd ~/splash-kit
-cat DFlash2-model.safetensors.part-* | cat > Qwen3.8-27B-DFlash2/model.safetensors
+cat DFlash2-model.safetensors.part-* > Qwen3.8-27B-DFlash2/model.safetensors
 cat Qwen3.8-27B-UD-Q4_K_M.gguf.part-*  > Qwen3.8-27B-GGUF/Qwen3.8-27B-UD-Q4_K_M.gguf
 mv mmproj-BF16.gguf Qwen3.8-27B-GGUF/
 
